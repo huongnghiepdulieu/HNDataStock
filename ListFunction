@@ -1,1 +1,5 @@
-
+0. Cách sử dụng HNDataStock
+Cài đặt gói: pip install HNDataStock
+1. Sử dụng hàm 1: get_stock_data
+from hn_data_stock import StockData
+data = StockData.get_stock_data('VCB.VN', '1mo')
